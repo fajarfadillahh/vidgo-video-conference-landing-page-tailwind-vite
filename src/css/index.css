@@ -25,3 +25,19 @@
     @apply inline-flex text-[1.3rem] text-white;
   }
 }
+
+/* ===== HEADER SECTION ===== */
+.header__menu.show-menu {
+  @apply opacity-100 scale-y-100;
+}
+@media screen and (max-width: 767px) {
+  .header__menu {
+    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-white shadow-[0_0_12px_rgba(0,0,0,0.1)] rounded-[1rem] transition-all duration-400 opacity-0 scale-y-0 origin-[0%_0%];
+  }
+}
+.header__link {
+  @apply text-[15px] text-grey;
+}
+.header__link.active-link {
+  @apply font-semibold text-black;
+}
