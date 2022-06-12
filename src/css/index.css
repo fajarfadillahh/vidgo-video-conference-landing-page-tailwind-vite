@@ -55,3 +55,27 @@
 .tools__content-text {
   @apply section-text mb-0;
 }
+
+/* ===== FEATURE SECTION ===== */
+.feature__group {
+  @apply grid gap-32;
+}
+.feature__content {
+  @apply grid gap-12;
+}
+.feature__data,
+.feature__img {
+  @apply justify-self-center;
+}
+.feature__list {
+  @apply grid gap-6;
+}
+.feature__item {
+  @apply flex items-start gap-4;
+}
+.feature__item-title {
+  @apply font-title font-semibold text-[20px] text-black mb-4;
+}
+.feature__item-text {
+  @apply text-[15px] text-grey leading-text;
+}
