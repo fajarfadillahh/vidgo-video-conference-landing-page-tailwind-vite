@@ -41,3 +41,17 @@
 .header__link.active-link {
   @apply font-semibold text-black;
 }
+
+/* ===== TOOLS SECTION ===== */
+.tools__group {
+  @apply grid grid-cols-[repeat(auto-fit,_minmax(220px,_0.85fr))] justify-center gap-12;
+}
+.tools__content {
+  @apply grid gap-8;
+}
+.tools__content-title {
+  @apply section-title text-[20px];
+}
+.tools__content-text {
+  @apply section-text mb-0;
+}
