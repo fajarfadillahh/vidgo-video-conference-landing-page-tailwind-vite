@@ -164,3 +164,14 @@
 ::selection {
   @apply bg-black bg-opacity-50 text-white;
 }
+
+/* ===== SCROLL BAR ===== */
+::-webkit-scrollbar {
+  @apply w-[.5rem] bg-black bg-opacity-10;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-black bg-opacity-30;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-black bg-opacity-50;
+}
