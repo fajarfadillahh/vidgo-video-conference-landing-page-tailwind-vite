@@ -76,3 +76,13 @@ function stickyHeader() {
     : header.classList.remove("sticky-header");
 }
 window.addEventListener("scroll", stickyHeader);
+
+// ===== SCROLLUP SECTION =====
+function scrollUp() {
+  const scrollup = document.getElementById("scroll-up");
+
+  this.scrollY > 200
+    ? scrollup.classList.add("scroll-header")
+    : scrollup.classList.remove("scroll-header");
+}
+window.addEventListener("scroll", scrollUp);
