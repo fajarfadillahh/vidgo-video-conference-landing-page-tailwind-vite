@@ -108,7 +108,7 @@
   position: initial;
 }
 .testimonial__container .swiper-pagination-bullet {
-  @apply w-[10px] h-[10px] bg-black bg-opacity-40 transition-all duration-400;
+  @apply w-[10px] h-[10px] bg-black transition-all duration-400;
 }
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] bg-black rounded-[5rem];
