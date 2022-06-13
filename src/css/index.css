@@ -159,3 +159,8 @@
 .scrollup.scroll-header {
   @apply bottom-12;
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-black bg-opacity-50 text-white;
+}
