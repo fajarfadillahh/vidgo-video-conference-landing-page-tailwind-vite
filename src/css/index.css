@@ -113,3 +113,27 @@
 .testimonial__container .swiper-pagination-bullet-active {
   @apply w-[2rem] h-[10px] bg-black rounded-[5rem];
 }
+
+/* ===== FAQS SECTION ===== */
+.faqs__accordion-item {
+  @apply bg-white border-b-2 border-solid border-black;
+}
+.faqs__accordion-header {
+  @apply flex justify-between items-center gap-2 py-6 cursor-pointer;
+}
+.faqs__accordion-title {
+  @apply text-[17px] text-black font-title font-semibold;
+}
+.faqs__accordion-icon {
+  @apply inline-flex text-[1.5rem] text-black transition-all duration-400;
+}
+.faqs__accordion-content {
+  @apply overflow-hidden h-0 transition-all duration-400;
+}
+.faqs__accordion-text {
+  @apply text-[14px] text-grey leading-text pb-6;
+}
+/* accordion open */
+.faqs .accordion-open .faqs__accordion-icon {
+  @apply rotate-45;
+}
