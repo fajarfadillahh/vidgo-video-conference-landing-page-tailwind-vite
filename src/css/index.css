@@ -137,3 +137,14 @@
 .faqs .accordion-open .faqs__accordion-icon {
   @apply rotate-45;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__content-title {
+  @apply text-[18px] text-black font-title font-semibold mb-4;
+}
+.footer__content-list {
+  @apply flex flex-col gap-2;
+}
+.footer__content-link {
+  @apply text-[15px] text-grey hover:text-black hover:underline;
+}
