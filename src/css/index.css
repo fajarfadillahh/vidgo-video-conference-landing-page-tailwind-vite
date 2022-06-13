@@ -190,3 +190,21 @@
     @apply w-[400px] justify-self-center;
   }
 }
+
+/* screen 640px */
+@screen sm {
+  .section-title {
+    @apply text-[28px];
+  }
+
+  .home__data,
+  .home__img,
+  .feature__data,
+  .feature__img,
+  .integrated__data,
+  .integrated__img,
+  .faqs__data,
+  .faqs__accordion {
+    @apply w-[470px];
+  }
+}
