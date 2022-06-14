@@ -53,7 +53,7 @@
   @apply grid gap-8;
 }
 .tools__content-title {
-  @apply font-semibold text-[20px] mb-4;
+  @apply font-title font-semibold text-[20px] mb-4;
 }
 .tools__content-text {
   @apply section-text mb-0;
@@ -281,5 +281,40 @@
 
   .footer__content {
     @apply justify-self-center;
+  }
+}
+
+/* screen 1120px */
+@screen xl {
+  .section-title {
+    @apply text-[42px];
+  }
+
+  .home__wrapper {
+    @apply pt-20;
+  }
+  .home__data {
+    @apply w-[600px];
+  }
+  .home__img {
+    @apply w-[900px];
+  }
+
+  .feature__group {
+    @apply gap-40;
+  }
+
+  .tools__content-title,
+  .feature__item-title {
+    @apply text-[24px];
+  }
+
+  .faqs__accordion-title,
+  .footer__content-title {
+    @apply text-[20px];
+  }
+
+  .footer__container {
+    @apply gap-40;
   }
 }
